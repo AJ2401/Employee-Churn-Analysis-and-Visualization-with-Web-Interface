@@ -1,0 +1,94 @@
+* {
+   margin: 0px;
+}
+
+body {
+   background: linear-gradient(white 80%, rgba(228, 255, 255, 0.24), rgb(228, 255, 255));
+}
+
+#div {
+   margin: 20px;
+}
+
+#d1 {
+   text-align: left;
+}
+
+#div h1 {
+   font-size: 53px;
+   font-family: 'Gill Sans', 'Gill Sans MT';
+   color: rgb(138, 194, 195);
+   text-align: center;
+   line-height: 8px;
+   margin-top: 2.5rem;
+   margin-bottom: 4.5rem;
+   font-weight: 600;
+}
+
+#d1 h3 {
+   padding-top: 8vh;
+   padding-left: 50px;
+   padding-bottom: 8vh;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 2.5rem;
+   letter-spacing: 2px;
+   width: 60rem;
+}
+
+#d4 {
+   text-align: left;
+   padding-left: 50px;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 2.5rem;
+   letter-spacing: 2px;
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+}
+
+#d2 h2 {
+   font-weight: 400;
+   line-height: 2.5rem;
+   text-align: center;
+   letter-spacing: 2px;
+   padding: 40px;
+   font-size: 34px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: rgb(17, 40, 41);
+}
+
+#d2 img {
+   width: 500px;
+   height: 500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+#d2 p {
+   font-weight: 100;
+   line-height: 2.5rem;
+   text-align: left;
+   letter-spacing: 2px;
+   font-size: 22px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(11, 12, 12);
+}
+
+#d3 {
+   background-color: rgb(8, 10, 29);
+   width: 100%;
+   height: 40vh;
+   color: aliceblue;
+}
+
+#d3 li,
+h3 {
+   list-style: none;
+   font-size: 22px;
+   padding-top: 22px;
+   padding-left: 10rem;
+}

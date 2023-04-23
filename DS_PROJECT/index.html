@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>DS_Project</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   <div id="div">
+      <h1>DS PROJECT</h1>
+      <div id="d1">
+         <h3>This notebook project uses the employee_churn_trimmed.csv which contains data on employees who quit or
+            stayed at theirjobs, to uncover what could be causing churn and thus present these insights and findings
+            using matplotlib and
+            seaborn
+            visualization plots.
+            <br><br><br>
+            The Employee data includes:
+         </h3>
+         <hr>
+         <div id="d4">
+            Age<br>
+            Attrition: y variable - Churned,Stayed<br>
+            DistanceFromHome: in Km<br>
+            EducationField: ('Bellow College', 'College', 'Bachelor's degree', 'Master's degree', 'PhD').<br>
+            MonthlyIncome : in USD<br>
+            Gender: Male,Female<br>
+            PercentSalaryHike:* % increase in salary last year.*<br>
+            PerformanceRating: Rating of Employee Performance classified as either Low, Good, Great, Excellent<br>
+            YearsAtCompany: Number of years spent at company<br>
+            EnvironmentSatisfaction: Rating of Employee Satisfaction with the work environment classified as
+            Low,Good,Great,Excellent<br>
+            JobInvolvement: Rating given by Employee in terms of Job Involvement classified as Low, Good, Great,
+            Excellent<br>
+            RelationshipSatisfaction: Rating of Employee Relationships Satisfaction classified as Low, Good, Great,
+            Excellent<br>
+            WorklifeBalance: Rating of Employee Work life balance Satisfaction classified as Low, Good, Great,
+            Excellent<br>
+         </div>
+         <hr>
+      </div>
+      <div id="d2">
+         <p><br><br>Employee Base -> Age Here, to plot the distribution of one numerical variable ,Age, I used a
+            distribution
+            plot
+            from
+            seaborn to try understand how old is the employee base</p><br><br>
+         <h2>Age Distribution of Employees</h2><br>
+         <br><img src="1.jpg"><br>
+
+
+         <p>In the following, We have tried to visualize what is the distribution of age, grouped by gender
+            In this plot, I plotted on a figure with multiple subplots called axes.<br>
+         </p><br>
+         <br>
+         <h2>Age Distribution By Gender</h2>
+         <br><img src="2.jpg"><br>
+         <p>Visualize education level of employees by gender <br> We have used seaborn's countplot to plot
+            counts/distribution of the categorical variable, education level and ordered by Gender variables.<br></p>
+         <h2>Employee Churn Rate By Distance</h2>
+         <br><img src="3.jpg"><br>
+         <p>We explored the data further to understand if there's a relationship between age or distance from home and
+            their churning So to visualize this, We used a boxplot to plot Age distributions on the Atrrition
+            categorical
+            levels - Churned,Stayed From the plot, we can tell that the people who left were mostly above 32 years
+            approximately.<br>
+            We can also tell that most people who left the company lived farther away from the place of work than the
+            rest
+            who were nearer.<br></p><br>
+         <br><img src="4.jpg"><br>
+         <h2>Churn Rate Based on Relationships Satisfaction</h2>
+         <p>Visualize Churn based on Relationship Satisfaction
+            Before, plotting I computed the Attritions in terms of rates as percentages in relation to each type of
+            relationshipsatisfaction<br>
+            As from the plot we can tell that those who churned the most, had a low relationship satisfaction
+            rating.<br>
+         </p><br>
+         <br><img src="5.jpg"><br>
+         <p>We have visualized all the rating surveys replies given by the employees i.e.EnvironmentSatisfaction,
+            JobSatisfaction,
+            JobInvolvement, WorkLifeBalance against the Attrition rates on axes plots similar to the Below figure.<br>
+         </p>
+         <br>
+         <br><img src="6.jpg"><br>
+         <h2>Monthly Income by Age </h2>
+         <p><br> What can we do to decrease churning?<br>
+
+            Do higher salaries create less churn? <br>Can this be applied to all ages? <br>To understand this, We have
+            used
+            a
+            scatterplot
+            to
+            visualize the relationship between two numeric values, Age and MonthlyIncome.<br></p>
+         <br><img src="7.jpg"><br>
+         <h2>Salary Hike Percentage By Monthly Income</h2>
+         <p><br>
+            Did last year's salary increases impact churn?<br>
+
+            we have visualized the relationship between the Monthly Income and the PercentSalaryHike using a
+            swarmplot.<br>
+
+            A swarmplot are used to show the relationship and distribution of values for one categorical, raise_category
+            and one
+            numerical variable,MonthlyIncome.<br>
+
+            But first, we have segmented and sorted the PercentSalaryHike into a categorical bins named raise_category
+            using the
+            pandas'
+            method, cut.<br><br>
+         </p>
+         <br><img src="8.jpg"><br>
+      </div>
+   </div>
+   <div id="d3">
+      <h3>TEAM UP BY : </h3>
+      <ul>
+         <li>Abhishek Jhawar</li>
+      </ul>
+   </div>
+</body>
+
+</html>
