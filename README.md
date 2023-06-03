@@ -5,7 +5,7 @@
 
 
    .&nbsp; Making Subprocess of Main Server which takes the Text File which Contains the HTTPS link for csv data.
-   .&nbsp;Second After that it Goes to Internal Server where it is sending the Text.txt File to each Individual process to Process the data and give        desired output.
+   .&emsp;Second After that it Goes to Internal Server where it is sending the Text.txt File to each Individual process to Process the data and give        desired output.
    .&nbsp;After Getting Desired Output it is Launching the Website "index.html" which shows the output in well structured manner.
 
 
