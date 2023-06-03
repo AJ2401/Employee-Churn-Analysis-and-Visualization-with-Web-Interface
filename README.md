@@ -28,7 +28,7 @@
    .  Sending the Text.txt File to Each Individual Process
 
 
-### **---   P1.py , P2.py , p3.py , P4.py , P5.py , p6.py , p7.py , p8.py   ---**
+### **---   P1.py , P2.py , P3.py , P4.py , P5.py , P6.py , P7.py , P8.py   ---**
    
    
    .  Run the Process Individually it will Process the Data and Form a Graphical Image of that Data.
