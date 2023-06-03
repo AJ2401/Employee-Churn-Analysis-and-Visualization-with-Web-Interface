@@ -4,9 +4,9 @@
 ## **---    Execution of project.py   ---**
 
 
-   .&nbsp; Making Subprocess of Main Server which takes the Text File which Contains the HTTPS link for csv data.
-   .&emsp;Second After that it Goes to Internal Server where it is sending the Text.txt File to each Individual process to Process the data and give        desired output.
-   .&nbsp;After Getting Desired Output it is Launching the Website "index.html" which shows the output in well structured manner.
+   .&nbsp;&nbsp;&nbsp; Making Subprocess of Main Server which takes the Text File which Contains the HTTPS link for csv data.</br>
+   .&nbsp;&nbsp;&nbsp;Second After that it Goes to Internal Server where it is sending the Text.txt File to each Individual process to Process the data and give        desired output.</br>
+   .&nbsp;&nbsp;&nbsp;After Getting Desired Output it is Launching the Website "index.html" which shows the output in well structured manner.</br>
 
 
 ### **---    Clients/Client.py    ---**
