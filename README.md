@@ -1,7 +1,7 @@
 # DS_LAB_PROJECT
 
 
-## **---    Execution of project.py   ---**
+## ---    Execution of project.py   ---
 
 
    .&nbsp;&nbsp;&nbsp; Making Subprocess of Main Server which takes the Text File which Contains the HTTPS link for csv data.</br>
@@ -9,33 +9,32 @@
    .&nbsp;&nbsp;&nbsp;After Getting Desired Output it is Launching the Website "index.html" which shows the output in well structured manner.</br>
 
 
-### **---    Clients/Client.py    ---**
-
+### ---    Clients/Client.py    ---
 
    .  It Sends the Text File to Main Server Through Dynamic Port.
    .  The Text File Contains the Https link of CSV data-collection.
 
 
-### **---    Image Server (img_ser.py)   ---**
+### ---    Image Server (img_ser.py)   ---
    
    
    .  Recieves Images From Image Client from Each Process.
    
    
-### **---    Internal Server.py   ---**
+### ---    Internal Server.py   ---
    
    
    .  Sending the Text.txt File to Each Individual Process
 
 
-### **---   P1.py , P2.py , P3.py , P4.py , P5.py , P6.py , P7.py , P8.py   ---**
+### ---   P1.py , P2.py , P3.py , P4.py , P5.py , P6.py , P7.py , P8.py   ---
    
    
    .  Run the Process Individually it will Process the Data and Form a Graphical Image of that Data.
    .  It also Calls a Subprocess "img_client.py" which sends the Image to "img_server.py".
 
 
-### **---    After Executing All Processes.  ---**
+### ---    After Executing All Processes.  ---
 
 
    .  It Comes back to Main Process.
